@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository provides tools to automate tagging DevOps tickets into emails using Power Automate. It includes:
+This Power Automate flow template designed to streamline the process of tagging DevOps tickets into emails. By automating this task, the flow helps improve efficiency and ensures consistent communication. It includes:
 
 - A downloadable Power Platform solution for rapid deployment and experimentation.
 - The Legacy Power Automate flow as a ready-to-import ZIP file.
