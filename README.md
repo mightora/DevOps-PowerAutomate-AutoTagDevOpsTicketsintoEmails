@@ -1,36 +1,87 @@
 # DevOps-PowerAutomate-AutoTagDevOpsTicketsintoEmails
 
-This repository provides:
+## Introduction
+
+This repository provides tools to automate tagging DevOps tickets into emails using Power Automate. It includes:
 
 - A downloadable Power Platform solution for rapid deployment and experimentation.
 - The Legacy Power Automate flow as a ready-to-import ZIP file.
 
-## Contents
+For more information, visit the [TechTweedie Blog](https://mars.mightora.io/yourls/250720blog).
 
-- `/solutions/` — Contains the managed and unmanaged Power Platform solution files.
-- `/flows/` — Contains the Legacy ZIP file export.
-- See blog post for more information https://mars.mightora.io/yourls/250720blog
+## Prerequisites
 
-## How to Use
+To use this repository, you need:
 
-1. **Download the Solution**
-   - Navigate to the `/solutions/` folder and download the latest solution ZIP file (choose managed or unmanaged as needed).
-   - Import the solution into your Power Platform environment via the Power Apps Maker Portal.
+- Access to a Power Platform environment.
+- A Power Automate account.
 
-2. **Import the Power Automate Flow**
-   - Go to the `/flows/` folder and download the flow ZIP file.
-   - In Power Automate, select "Import" and upload the ZIP file. Reconnect any required connections.
+## Obtaining Credentials
+
+Ensure you have the necessary permissions and credentials to import solutions and flows into your Power Platform environment. Additionally, ensure you have the required permissions in DevOps to comment on work items. For more details, refer to the [Power Platform documentation](https://learn.microsoft.com/en-us/power-platform/).
+
+## Supported Operations
+
+### Power Platform Solution
+
+- Import managed or unmanaged solutions into your Power Platform environment.
+
+### Power Automate Flow
+
+- Import and configure the legacy flow for automating DevOps ticket tagging.
+
+## Parameters
+
+### Power Automate Flow Parameters
+
+- **Connections**: Ensure all required connections are reconfigured after importing the flow.
+
+- **DevOps URL**: Update the URL to reflect your DevOps organization and project.
+
+## Using the Connector
+
+### Download the Solution
+
+1. Navigate to the `/solutions/` folder.
+
+2. Download the latest solution ZIP file (choose managed or unmanaged as needed).
+
+3. Import the solution into your Power Platform environment via the Power Apps Maker Portal.
+
+### Import the Power Automate Flow
+
+1. Go to the `/flows/` folder.
+
+2. Download the flow ZIP file.
+
+3. In Power Automate, select "Import" and upload the ZIP file.
+
+4. Reconnect any required connections.
+
+## Try it Out
+
+Test the imported solution and flow in your Power Platform environment to ensure they work as expected. Adjust configurations as needed.
+
+## Known Issues and Limitations
+
+- The legacy flow may require manual reconfiguration of connections.
+
+- Compatibility with older Power Platform environments is not guaranteed.
 
 ## License
 
-This repository is provided under the MIT License. See `LICENSE` for details.
+This repository is provided under the MIT License. See the `LICENSE` file for details.
 
----
+## Contributions
 
-# TechTweedie Blog
-Welcome to the repository for TechTweedie Blog, a blog dedicated to sharing insights, tutorials, and updates on the latest in technology and programming.
+Contributions are welcome! Feel free to submit issues or pull requests via the [GitHub repository](https://github.com/mightora/DevOps-PowerAutomate-AutoTagDevOpsTicketsintoEmails).
 
-## About the Blog
-TechTweedie Blog aims to provide valuable content for tech enthusiasts, developers, and anyone interested in staying updated with the ever-evolving world of technology. From detailed tutorials to thought-provoking articles, we cover a wide range of topics to help our readers stay ahead of the curve.
+## Git Repository Contents
 
-This blog has been migrated from an earlier blog hosed on https://techtweedie.github.io
+- `/solutions/` — Contains the managed and unmanaged Power Platform solution files.
+
+- `/flows/` — Contains the Legacy ZIP file export.
+
+## Additional Notes
+
+This blog has been migrated from an earlier blog hosted on [TechTweedie](https://techtweedie.github.io).
